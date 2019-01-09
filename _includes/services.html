@@ -5,26 +5,33 @@
     <div class="row">
       <div class="col-6 mx-auto centered">
         <h1>{{ site.data.t[page.lang].menu-services }}</h1>
-        <h3>Développé au sein de notre équipe {{ site.data.t[page.lang].location }}.</h3>
+        <h3>{{ site.data.t[page.lang].services-headline }}</h3>
         <br/>
       </div><!-- /col-lg-8 -->
     </div><!--/row -->
 
-    <div class="row mt">
+    <div class="row">
       {% assign lang-services = site.data.services | where: "lang", page.lang %}
 
       {% for service in lang-services %}
 
-      {% assign remainder = forloop.index | modulo: 4 %}
+      {% assign remainder = forloop.index | modulo: 2 %}
 
-      <div class="col-lg-3 col-md-6 service">
-        <i class="{{ service.favicon }}"></i><p>{{ service.title }}<br/><small>{{ service.small }}</small></p>
-        <p class="text">{{ service.description }}</p>
+      <div class="col-6 service wow fadeIn" data-wow-delay="0.{{forloop.index}}s">
+        <div class="card bg-dark text-white">
+          <img class="card-img" src="assets/img/about-sep.jpg" alt="Card image">
+          <div class="card-img-overlay">
+            <h3 class="card-title">Card title</h3>
+            <i class="{{ service.favicon }}"></i><p>{{ service.title }}<br/><small>{{ service.small }}</small></p>
+            <p class="card-text">{{ service.description }}</p>
+            <p class="text">{{ service.description }}</p>
+          </div>
+        </div>
       </div>
 
       {% if remainder == 0 %}
-      </div><!-- /row -->
-      <div class="row mt">
+    </div><!-- /row --></br>
+    <div class="row">
       {% endif %}
 
       {% endfor %}
@@ -32,5 +39,5 @@
     </div><!--/row -->
 
   </div><!--/container -->
-  <h1><a href="#projects" class="smoothScroll nextArrow"><i class="fas fa-angle-double-down"></i></a></h1>
+  <h1><a href="#technologies" class="smoothScroll nextArrow"><i class="fas fa-angle-double-down"></i></a></h1>
 </div><!--/servicewrap -->

@@ -8,11 +8,11 @@
   {% include menu.html %}
 
   <section id="home" name="home"></section>
-  <div id="headerwrap" data-stellar-background-ratio="0.5">
+  <div class="animated fadeIn" id="headerwrap" data-stellar-background-ratio="0.5">
     <div class="container">
       <div class="row">
         <div class="col-6 mx-auto">
-          <img class="animated fadeInUp slow" src="assets/img/bbs-logo.png" style="max-width:100%;"></img>
+          <img class="animated fadeInUp slow" src="assets/img/bbs-logo-v3.png" style="max-width:100%;"></img>
           <h2 class="animated fadeIn delay-2s">{{ site.tagline }}</h2>
           <h2><a href="#services" class="smoothScroll nextArrow"><i class="fas fa-angle-double-down"></i></a></h2>
         </div>
@@ -21,6 +21,8 @@
   </div><!--/headerwrap -->
 
   {% include services.html %}
+
+  {% include technologies.html %}
 
   {% include projects.html %}
 

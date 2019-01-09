@@ -7,6 +7,7 @@
     <div class="row">
       <div class="col-6 mx-auto centered">
       <h1>{{ site.data.t[page.lang].menu-projects }}</h1>
+      <h3>{{ site.data.t[page.lang].services-headline }}</h3>
     </div>
   </div>
   <div class="row">
@@ -18,8 +19,8 @@
       {% assign remainder = forloop.index | modulo: 3 %}
 
       <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 desc">
-        <div class="card">
-            <img class="card-img-top responsive" src="assets/img/projects/{{ project.image }}.png" alt="{{ project.image }}">
+        <div class="card wow fadeIn" data-wow-delay="0.{{forloop.index}}s">
+            <img class="card-img-top" src="assets/img/projects/{{ project.image }}.png" alt="{{ project.image }}">
           <div class="card-body">
             <h2>{{ project.name }}</h2>
             <p class="text-justify">{{ project.description }}</p>
