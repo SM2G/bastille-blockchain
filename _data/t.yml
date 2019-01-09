@@ -1,28 +1,25 @@
 en:
-  home: "Home"
   menu-welcome: "Home"
   menu-services: "Services"
-  menu-portfolio: "Projects"
+  menu-projects: "Projects"
   menu-contact: "Contact"
   location: "New York"
   contact-us: "Contact us"
   contact-us-underline: ""
 
 fr:
-  home:  "Accueil"
   menu-welcome: "Accueil"
   menu-services: "Services"
-  menu-portfolio: "Projets"
+  menu-projects: "Projets"
   menu-contact: "Contact"
   location: "Paris"
   contact-us: "Nous contacter"
   contact-us-underline: ""
 
 zh:
-  home:  "首页"
   menu-welcome: "Home"
   menu-services: "Home"
-  menu-portfolio: "项目"
+  menu-projects: "项目"
   menu-contact: "债券"
   location: "Beijing"
   contact-us: ""
