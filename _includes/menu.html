@@ -1,0 +1,30 @@
+<!-- MENU SECTION -->
+<nav class="menu" id="theMenu">
+  <div class="menu-wrap">
+    <h1 class="logo"><a href="index.html#home">{{ site.title }}</a></h1>
+    <i class="fa fa-times menu-close"></i>
+    <ul>
+      <li><a href="#home" class="smoothScroll">{{ site.data.t[page.lang].menu-welcome }}</a></li>
+      <li><a href="#services" class="smoothScroll">{{ site.data.t[page.lang].menu-services }}</a></li>
+      <li><a href="#portfolio" class="smoothScroll">{{ site.data.t[page.lang].menu-portfolio }}</a></li>
+      <li><a href="#contact" class="smoothScroll">{{ site.data.t[page.lang].menu-contact }}</a></li>
+    </ul>
+
+    <ul>
+      {% for link in site.navigation %}
+      {% assign current = nil %}
+      {% if page.url contains link.url %}
+      {% assign current = 'current' %}
+      {% endif %}
+      <li>
+        <a href="{{ site.baseurl }}{{ link.url }}">
+          <img src="assets/img/flags/flag_64_{{ link.title }}.png" style="width:30px;"></img> {{ link.title }}
+        </a>
+      </li>
+      {% endfor %}
+    </ul>
+  </div>
+
+  <!-- Menu button -->
+  <div id="menuToggle"><i class="fa fa-bars"></i></div>
+</nav>

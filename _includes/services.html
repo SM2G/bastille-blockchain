@@ -1,0 +1,36 @@
+<!-- SERVICES SECTION -->
+<section id="services" name="services"></section>
+<div id="servicewrap">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8-offset-2 centered">
+        <h1>{{ site.data.t[page.lang].home }}</h1>
+        <h3>Développé au sein de notre équipe {{ site.data.t[page.lang].location }}.</h3>
+        <br/>
+      </div><!-- /col-lg-8 -->
+    </div><! --/row -->
+
+    <div class="row mt">
+      {% assign lang-services = site.data.services | where: "lang", page.lang %}
+
+      {% for service in lang-services %}
+
+      {% assign remainder = forloop.index | modulo: 4 %}
+
+      <div class="col-lg-3 col-md-6 service">
+        <i class="{{ service.favicon }}"></i><p>{{ service.title }}<br/><small>{{ service.small }}</small></p>
+        <p class="text">{{ service.description }}</p>
+      </div>
+
+      {% if remainder == 0 %}
+      </div><!-- /row -->
+      <div class="row mt">
+      {% endif %}
+
+      {% endfor %}
+
+    </div><!--/row -->
+
+  </div><!--/container -->
+  <h1><a href="#portfolio" class="smoothScroll nextArrow"><i class="fas fa-angle-double-down"></i></a></h1>
+</div><!--/servicewrap -->
