@@ -18,13 +18,12 @@
       {% assign remainder = forloop.index | modulo: 2 %}
 
       <div class="col-6 service wow fadeIn" data-wow-delay="0.{{forloop.index}}s">
-        <div class="card bg-dark text-white">
-          <img class="card-img" src="assets/img/about-sep.jpg" alt="Card image">
+        <div class="card bg-dark text-dark">
+          <img class="card-img" src="assets/img/services/service-bg-{{ service.bg }}.png" alt="{{ service.bg }}">
           <div class="card-img-overlay">
-            <h3 class="card-title">Card title</h3>
+            <h2 class="card-text">{{ service.title }}</h2>
             <i class="{{ service.favicon }}"></i><p>{{ service.title }}<br/><small>{{ service.small }}</small></p>
-            <p class="card-text">{{ service.description }}</p>
-            <p class="text">{{ service.description }}</p>
+            <p class="card-text text-justify">{{ service.description }}</p>
           </div>
         </div>
       </div>

@@ -1,17 +1,34 @@
 - title: Gestion Informatique à distance
   lang: fr
   favicon: fa fa-laptop
+  bg: support
   small: Offrez-vous une DSI
   description: "Notre offre d'administration à distance vous permet de vous concentrer sur votre métier, et nous assuront le maintien en condition opérationnelle de votre SI."
 
 - title: Formation IT
   lang: fr
   favicon: fas fa-chalkboard-teacher
+  bg: lecture
   small: Formation d'équipes Dev/Ops
   description: "Avec plus de 5 années d'expérience en formation, en France comme à l'international, nous sommes à même de proposer des sessions de formations correspondant à vos besoins."
+
+- title: Réalisation Projet
+  lang: fr
+  favicon: fa fa-link
+  bg: code
+  small: Initiation et réalisation de POC Blockchain
+  description: "Que ce soit via nos formations en ligne, ou directement en face-à-face, appréhendez les contepts des technologies Blockchain & DLT."
 
 - title: Formation Blockchain
   lang: fr
   favicon: fa fa-link
+  bg: lecture
+  small: Initiation aux principes fondamentaux Blockchain
+  description: "Que ce soit via nos formations en ligne, ou directement en face-à-face, appréhendez les contepts des technologies Blockchain & DLT."
+
+- title: Réalisation POC Blockchain
+  lang: fr
+  favicon: fa fa-link
+  bg: code
   small: Initiation et réalisation de POC Blockchain
   description: "Que ce soit via nos formations en ligne, ou directement en face-à-face, appréhendez les contepts des technologies Blockchain & DLT."
