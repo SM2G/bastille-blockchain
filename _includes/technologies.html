@@ -7,7 +7,7 @@
     <div class="row">
       <div class="col-6 mx-auto centered">
         <h1>{{ site.data.t[page.lang].menu-technologies }}</h1>
-        <h3>{{ site.data.t[page.lang].technologies-headline }}</h3>
+        <h3>{{ site.data.t[page.lang].headline-technologies }}</h3>
         <br/>
       </div><!-- /col-lg-8 -->
     </div><!--/row -->
@@ -18,7 +18,7 @@
 
       {% for tech in lang-technologies %}
 
-      <div class="col wow fadeInUp" data-wow-delay="0.{{forloop.index}}s">
+      <div class="col wow fadeInUp hvr-grow" data-wow-delay="0.{{forloop.index}}s">
         <div class="card border-secondary">
           <div class="card-header"><h3 class="card-title centered">{{ tech.name }}</h3></div>
           <img class="card-img-top" src="assets/img/tech/tech-bg.png" />
