@@ -1,0 +1,14 @@
+- name: IOTA
+  lang: fr
+  image: iota
+  description: "Avec plus de 5 années d'expérience en formation, en France comme à l'international, nous sommes à même de proposer des sessions de formations correspondant à vos besoins."
+
+- name: Hyperledger
+  lang: fr
+  image: hyperledger
+  description: "Avec plus de 5 années d'expérience en formation, en France comme à l'international, nous sommes à même de proposer des sessions de formations correspondant à vos besoins."
+
+- name: Ethereum
+  lang: fr
+  image: ether
+  description: "Avec plus de 5 années d'expérience en formation, en France comme à l'international, nous sommes à même de proposer des sessions de formations correspondant à vos besoins."

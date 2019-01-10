@@ -442,6 +442,42 @@ Wrap Sections
   color: #767676
 }
 
+/* Technologies Wrap */
+#technologieswrap {
+  display: block;
+  min-height: 100%;
+  margin-top: 40px;
+  margin-bottom: 80px;
+}
+
+#technologieswrap h1 {
+  font-weight: 300;
+  font-size: 60px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.technologies {
+  text-align: left;
+}
+
+.technologies small {
+  font-size: 12px;
+  font-weight: bold
+}
+
+.technologies i {
+  float: left;
+  margin-right: 15px;
+  font-size: 60px;
+  vertical-align: middle;
+  color: #700000;
+}
+
+.technologies .text {
+  color: #767676
+}
+
 /* Testimonials Wrap */
 #testimonials {
   display: block;
