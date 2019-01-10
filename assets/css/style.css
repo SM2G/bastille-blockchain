@@ -478,6 +478,10 @@ Wrap Sections
   color: #767676
 }
 
+.technologies {
+  background-image: url(../img/technologies-sep.jpg);
+}
+
 /* Testimonials Wrap */
 #testimonials {
   display: block;
