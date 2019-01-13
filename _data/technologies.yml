@@ -1,14 +1,21 @@
-- name: IOTA
+- title: IOTA
   lang: fr
   image: iota
-  description: "Avec plus de 5 années d'expérience en formation, en France comme à l'international, nous sommes à même de proposer des sessions de formations correspondant à vos besoins."
+  description: "Blockchain de troisième génération, sans blocs ni chaîne directe à proprement parler, la technologie IOTA utilise un système basé sur une structure mathématique de graphe acyclique dirigé appelé Tangle.
+  Ce concept novateur promet des temps de transactions rapides et fluides même lorsque le réseau est fortement utilisé.
+</br></br>
+  C'est une technologie encore récente et sujette à de nombreuses controverses, mais qui ouvre des perspectives très intéressantes notament en matière d'IoT.
+  Avec Abra, le nouveau Langage de développement de Smart Contracts, cette technologie pourrait s'imposer dans les années à venir."
 
-- name: Hyperledger
+- title: Hyperledger
   lang: fr
   image: hyperledger
-  description: "Avec plus de 5 années d'expérience en formation, en France comme à l'international, nous sommes à même de proposer des sessions de formations correspondant à vos besoins."
+  description: "Aujourd'hui l'une des références principales en matière de technologie Blockchain destinée aux entreprise, l'écosystème Hyperledger s'impose avec le support d'IBM comme un acteur incontournable de demain."
 
-- name: Ethereum
+- title: Ethereum
   lang: fr
   image: ether
-  description: "Avec plus de 5 années d'expérience en formation, en France comme à l'international, nous sommes à même de proposer des sessions de formations correspondant à vos besoins."
+  description: "Pionnier des Blockchains de seconde génération, Ethereum est aujourd'hui une plateforme incontournable pour la création de Smart Contracts.</br>
+  Utilisés lors d'ICO ou pour l'automatisation de transferts, l'environnement de développement Ethereum est le plus populaire et reconnu, notament auprès du grand public.
+</br></br>
+  Sa version entreprise est la plus indiquée pour un apprentissage rapide aurpès de développeurs déjà initiés et progresse vers une adoption dans le monde professionnel."

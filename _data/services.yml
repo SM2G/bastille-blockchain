@@ -3,18 +3,19 @@
   favicon: fa fa-laptop
   bg: support
   small: Offrez-vous une DSI
-  description: "Notre offre d'administration à distance vous permet de vous concentrer sur votre métier, et nous assuront le maintien en condition opérationnelle de votre SI."
+  description: "Notre offre d'administration à distance vous permet de vous concentrer sur votre métier, et nous assuront le maintien en condition opérationnelle de votre SI. <br>Notre équipe de professionnels sont chargés de surveiller votre parc informatique et s’assurent au quotidien de son bon fonctionnement.
+En cas de panne, nous intervenons rapidement afin d'opérer au dépannage informatique de vos matériels."
 
 - title: Formation IT
   lang: fr
   favicon: fas fa-chalkboard-teacher
   bg: lecture
   small: Formation d'équipes Dev/Ops
-  description: "Avec plus de 5 années d'expérience en formation, en France comme à l'international, nous sommes à même de proposer des sessions de formations correspondant à vos besoins."
+  description: "Avec plus de 5 années d'expérience en formation auprès d'universités et de professionnels, en France comme à l'international, nous sommes à même de proposer des sessions de formations correspondant à vos besoins."
 
 - title: Réalisation Projet
   lang: fr
-  favicon: fa fa-link
+  favicon: fa fa-rocket
   bg: code
   small: Initiation et réalisation de POC Blockchain
   description: "Que ce soit via nos formations en ligne, ou directement en face-à-face, appréhendez les contepts des technologies Blockchain & DLT."
@@ -32,3 +33,10 @@
   bg: code
   small: Initiation et réalisation de POC Blockchain
   description: "Que ce soit via nos formations en ligne, ou directement en face-à-face, appréhendez les contepts des technologies Blockchain & DLT."
+
+- title: Implémentation DevOps
+  lang: fr
+  favicon: fa fa-cubes
+  bg: code
+  small: Initiation et implémentation de méthodes et procédés DevOps.
+  description: "L'ensemble des méthodes et outils DevOps visent à améliorer la coopération des équipes et l'amélioration du <em>time to market</em>. <br>Ces techniques nécessitent toutefois autant de mettre en place des moyens techniques que de revoir les process métiers associés."

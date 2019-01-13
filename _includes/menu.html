@@ -19,7 +19,7 @@
       {% endif %}
       <li>
         <a href="{{ site.baseurl }}{{ link.url }}">
-          <img src="assets/img/flags/flag_64_{{ link.title }}.png" style="width:30px;"></img> {{ link.title }}
+          <img src="assets/img/flags/flag_64_{{ link.title | downcase }}.png" style="width:30px;"> {{ link.title }}
         </a>
       </li>
       {% endfor %}
