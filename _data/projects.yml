@@ -1,5 +1,23 @@
+### FR ###
+
 - title: "Crystal Crypto"
   lang: fr
+  image: logo-crystalcrypto
+  link: www.crystalcrypto.ch
+  description: "Crystal Crypto est né de la volonté d'investisseurs privés de pouvoir communiquer et échanger des crypto monnaies directement via des échanges Blockchain, sans passer par une plateforme d'exchange centralisée."
+
+### EN ###
+
+- title: "Crystal Crypto"
+  lang: en
+  image: logo-crystalcrypto
+  link: www.crystalcrypto.ch
+  description: "Crystal Crypto est né de la volonté d'investisseurs privés de pouvoir communiquer et échanger des crypto monnaies directement via des échanges Blockchain, sans passer par une plateforme d'exchange centralisée."
+
+### ZH ###
+
+- title: "Crystal Crypto"
+  lang: zh
   image: logo-crystalcrypto
   link: www.crystalcrypto.ch
   description: "Crystal Crypto est né de la volonté d'investisseurs privés de pouvoir communiquer et échanger des crypto monnaies directement via des échanges Blockchain, sans passer par une plateforme d'exchange centralisée."

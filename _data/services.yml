@@ -1,42 +1,50 @@
-- title: Gestion Informatique à distance
-  lang: fr
-  favicon: fa fa-laptop
-  bg: support
-  small: Offrez-vous une DSI
-  description: "Notre offre d'administration à distance vous permet de vous concentrer sur votre métier, et nous assuront le maintien en condition opérationnelle de votre SI. <br>Notre équipe de professionnels sont chargés de surveiller votre parc informatique et s’assurent au quotidien de son bon fonctionnement.
-En cas de panne, nous intervenons rapidement afin d'opérer au dépannage informatique de vos matériels."
+### FR ###
 
-- title: Formation IT
+- title: Interface de paiement Crypto
   lang: fr
-  favicon: fas fa-chalkboard-teacher
-  bg: lecture
-  small: Formation d'équipes Dev/Ops
-  description: "Avec plus de 5 années d'expérience en formation auprès d'universités et de professionnels, en France comme à l'international, nous sommes à même de proposer des sessions de formations correspondant à vos besoins."
-
-- title: Réalisation Projet
-  lang: fr
-  favicon: fa fa-rocket
-  bg: code
-  small: Initiation et réalisation de POC Blockchain
-  description: "Que ce soit via nos formations en ligne, ou directement en face-à-face, appréhendez les contepts des technologies Blockchain & DLT."
+  bg: crypto
+  description: "Connectez votre vitrine en ligne à nos interfaces de paiement en crypto monnaie sur mesure et élargissez votre spectre de paiement."
 
 - title: Formation Blockchain
   lang: fr
-  favicon: fa fa-link
   bg: lecture
-  small: Initiation aux principes fondamentaux Blockchain
-  description: "Que ce soit via nos formations en ligne, ou directement en face-à-face, appréhendez les contepts des technologies Blockchain & DLT."
+  description: "Que ce soit via nos formations en ligne, ou directement en face-à-face, appréhendez les concepts fondamentaux des technologies Blockchain & DLT."
 
 - title: Réalisation POC Blockchain
   lang: fr
-  favicon: fa fa-link
   bg: code
-  small: Initiation et réalisation de POC Blockchain
-  description: "Que ce soit via nos formations en ligne, ou directement en face-à-face, appréhendez les contepts des technologies Blockchain & DLT."
+  description: "De la sélection des choix technologies selon votre cas d'usage à sa réalisation, nous vous accompagnons lors de la concrétisation de votre projet Blockchain & DLT."
 
-- title: Implémentation DevOps
-  lang: fr
-  favicon: fa fa-cubes
+### EN ###
+
+- title: Crypto payment interface
+  lang: en
+  bg: crypto
+  description: "Connect your online storefront to our custom cryptocurrency payment interfaces and broaden your payment spectrum."
+
+- title: Blockchain Training
+  lang: en
+  bg: lecture
+  description: "Whether through our online training, or directly face-to-face, apprehend the fundamental concepts of Blockchain & DLT technologies."
+
+- title: Smart contract & Blockchain project 
+  lang: en
   bg: code
-  small: Initiation et implémentation de méthodes et procédés DevOps.
-  description: "L'ensemble des méthodes et outils DevOps visent à améliorer la coopération des équipes et l'amélioration du <em>time to market</em>. <br>Ces techniques nécessitent toutefois autant de mettre en place des moyens techniques que de revoir les process métiers associés."
+  description: "From the selection of technology according to your use case to its realization, we provide technical support in the realization of your DLT & Blockchain project."
+
+### ZH ###
+
+- title: Crypto payment interface
+  lang: zh
+  bg: crypto
+  description: "Connect your online storefront to our custom cryptocurrency payment interfaces and broaden your payment spectrum."
+
+- title: Blockchain Training
+  lang: zh
+  bg: lecture
+  description: "Whether through our online training, or directly face-to-face, apprehend the fundamental concepts of Blockchain & DLT technologies."
+
+- title: Réalisation POC Blockchain
+  lang: zh
+  bg: code
+  description: "From the selection of technology according to your use case to its realization, we provide technical support in the realization of your DLT & Blockchain project."
