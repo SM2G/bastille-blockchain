@@ -56,6 +56,13 @@ hr {
   text-align: center
 }
 
+/* ==========================================================================
+Blur pictures
+========================================================================== */
+img.blur {
+	-webkit-filter: blur(3px);
+	filter: blur(3px);
+}
 
 /* ==========================================================================
 General styles
@@ -380,7 +387,6 @@ Wrap Sections
   font-size: 60px;
   text-align: center;
 }
-
 
 #projectswrap i {
   font-size: 50px;
