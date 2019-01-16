@@ -12,7 +12,7 @@
     </ul>
 
     <ul>
-      {% for link in site.navigation %}
+      {% for link in site.navigation | sort: 'title' %}
       {% assign current = nil %}
       {% if page.url contains link.url %}
       {% assign current = 'current' %}
