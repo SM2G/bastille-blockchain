@@ -28,7 +28,7 @@
 
 ### EN ###
 
-- title: IOTA
+- title: Iota
   lang: en
   image: iota
   description: "A third-generation blockchain, without blocks nor direct chain <em>per se</em>, the IOTA technology relies on a mathematical structure called a DAG for Directed Acyclic Graph.
@@ -56,28 +56,31 @@
 
 ### ZH ###
 
-- title: IOTA
+- title: Iota
   lang: zh
   image: iota
-  description: "A third-generation blockchain, without blocks nor direct chain <em>per se</em>, the IOTA technology relies on a mathematical structure called a DAG for Directed Acyclic Graph.
-   This innovative concept promises fast transaction times even under heavy network use.
-   </br> </br>
-   However the technology is still new and subject to many controversies, but it opens up very promising perspectives, especially regarding IoT.
-   With Abra, the new Smart Contracts Development Language, this technology could become a reality in the years to come."
+  description: "IOTA技术是第三代区块链，没有块也没有直接链<em>本身</em>，它依赖于一种称为DAG的有向无环图的数学结构。
+    即使在大量网络使用的情况下，这一创新概念也可实现快速交易
+    </br>
+    </br>
+    然而，该技术仍然是新的并且受到许多争议，但它开辟了非常有前途的观点，特别是在物联网方面。
+    借助新的智能合约开发语言Abra，这项技术可以在未来几年成为现实。"
 
 - title: Hyperledger
   lang: zh
   image: hyperledger
-  description: "Today, one of the leading references in Blockchain technology for business. Unlike most technologies in this field, Hyperledger offers a development ecosystem totally detached from cryptocurrency considerations.
-   </br> </br>
-   This radical choice makes it a fully professionnal DLT technology, dedicated to solving business problems.
+  description: "今天，区块链技术的主要参考之一。 与该领域的大多数技术不同，Hyperledger提供了一个完全脱离加密货币考虑的开发生态系统。
+    </br>
+    </br>
+    这种激进的选择使其成为一种完全专业的DLT技术，致力于解决业务问题。
    </br>
-   With the ability to transmit encrypted blocks to certain Blockchain participants and backed by IBM's financial and technical support, Hyperledger is a key player in the Blockchain business."
+    Hyperledger能够将加密块传输给某些区块链参与者，并得到IBM财务和技术支持的支持，是区块链业务的关键参与者。"
 
 - title: Ethereum
   lang: zh
   image: ether
-  description: "A pioneer of second-generation blockchains, Ethereum is today a key platform for the creation of Smart Contracts. </br>
-   Widely used for ICOs or for transfer automation, the Ethereum development environment is the most popular and recognized among the general public.
-   </br> </br>
-   Its enterprise version is also the most suitable for already initiated developers and is aiming directly for wide adoption in the professional world."
+  description: "作为第二代区块链的先驱，以太坊今天是创建智能合约的重要平台。</br>
+    以太坊开发环境广泛用于ICO或转移自动化，是最受公众欢迎的。
+    </br>
+    </br>
+    它的企业版也是最适合已经发起的开发人员，并且直接针对专业领域的广泛采用。"

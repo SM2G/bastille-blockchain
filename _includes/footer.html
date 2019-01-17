@@ -1,18 +1,18 @@
 <!-- FOOTER SECTION -->
 
-  <!-- Bootstrap core JavaScript -->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.2.0/js/bootstrap.min.js"></script>
+<!-- Bootstrap core JavaScript -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.2.0/js/bootstrap.min.js"></script>
 
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/stellar.js/0.6.2/jquery.stellar.min.js"></script>
-  <script src="assets/js/classie.js"></script>
-  <script src="assets/js/smoothscroll.js"></script>
-  <script src="assets/js/wow.min.js"></script>
-  <script>
-    new WOW().init();
-  </script>
-  <script src="assets/js/main.js"></script>
-  <script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/stellar.js/0.6.2/jquery.stellar.min.js"></script>
+<script src="assets/js/classie.js"></script>
+<script src="assets/js/smoothscroll.js"></script>
+<script src="assets/js/wow.min.js"></script>
+<script>
+  new WOW().init();
+</script>
+<script src="assets/js/main.js"></script>
+<script>
   $(function(){
     if($(window).width()>767){
       $.stellar({
@@ -21,20 +21,30 @@
       });
       var boxes = $('.well');
       var maxHeight = Math.max.apply(
-        Math, boxes.map(function() {
-          return $(this).height();
-        }).get());
-        boxes.height(maxHeight);
-      }
-      $(".menu a").click(function(){
-        $(".menu-open").toggleClass("menu-open");
-        $('#menuToggle').toggleClass('active');
-        $('body').toggleClass('body-push-toleft');
-      });
-      setTimeout(function(){
-        // Hide the address bar!
-        window.scrollTo(0, 1);
-      }, 0);
-
+      Math, boxes.map(function() {
+        return $(this).height();
+      }).get());
+      boxes.height(maxHeight);
+    }
+    $(".menu a").click(function(){
+      $(".menu-open").toggleClass("menu-open");
+      $('#menuToggle').toggleClass('active');
+      $('body').toggleClass('body-push-toleft');
     });
-    </script>
+    setTimeout(function(){
+      // Hide the address bar!
+      window.scrollTo(0, 1);
+    }, 0);
+
+  });
+</script>
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-96754340-2"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-96754340-2');
+</script>
