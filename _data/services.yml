@@ -27,24 +27,24 @@
   bg: lecture
   description: "Whether through our online training, or directly face-to-face, apprehend the fundamental concepts of Blockchain & DLT technologies."
 
-- title: Smart contract & Blockchain project 
+- title: Smart contract & Blockchain project
   lang: en
   bg: code
   description: "From the selection of technology according to your use case to its realization, we provide technical support in the realization of your DLT & Blockchain project."
 
 ### ZH ###
 
-- title: Crypto payment interface
+- title: 加密支付界面
   lang: zh
   bg: crypto
-  description: "Connect your online storefront to our custom cryptocurrency payment interfaces and broaden your payment spectrum."
+  description: "将您的在线店面连接到我们的自定义加密货币支付界面，并扩大您的支付范围。"
 
-- title: Blockchain Training
+- title: 区块链培训
   lang: zh
   bg: lecture
-  description: "Whether through our online training, or directly face-to-face, apprehend the fundamental concepts of Blockchain & DLT technologies."
+  description: "无论是通过我们的在线培训，还是直接面对面，都能理解区块链和DLT技术的基本概念。"
 
-- title: Réalisation POC Blockchain
+- title: 实现区块链
   lang: zh
   bg: code
-  description: "From the selection of technology according to your use case to its realization, we provide technical support in the realization of your DLT & Blockchain project."
+  description: "从根据您的使用案例选择技术到实现，我们为您的DLT和区块链项目的实现提供技术支持。"
