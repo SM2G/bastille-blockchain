@@ -17,7 +17,7 @@
 
     {% assign remainder = forloop.index | modulo: 2 %}
 
-    <div class="row">
+    <div class="row align-items-center">
       {% if remainder == 0 %}
 
       <div class="col-3 wow fadeInLeft" data-wow-delay="0.{{forloop.index}}s">
@@ -27,7 +27,7 @@
         <h2>{{ event.title }} <small>{{ event.date | date: '%B, %Y' }}</small></h2>
         <p class="text-justify">{{ event.description }}</p>
       </div><!-- col -->
-      
+
       {% else %}
 
       <div class="col-9 wow fadeIn" data-wow-delay="0.{{forloop.index}}s">

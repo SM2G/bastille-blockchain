@@ -8,6 +8,7 @@
         <h1>{{ site.data.t[page.lang].menu-services }}</h1>
         <h3>{{ site.data.t[page.lang].headline-services }}</h3>
         <br/>
+        <h3 class="d-block d-lg-none text-danger">{{ site.data.t[page.lang].go-desktop }}</h3>
       </div><!-- /col-6 -->
     </div><!--/row -->
 
@@ -18,17 +19,17 @@
 
       {% assign remainder = forloop.index | modulo: 3 %}
 
+      <div class="col-4 d-none d-lg-block service wow fadeIn hvr-grow" data-wow-delay="0.{{forloop.index}}s">
       <a class="smoothScroll text-white" href="#contact">
-      <div class="col-4 service wow fadeIn hvr-grow" data-wow-delay="0.{{forloop.index}}s">
-        <div class="card bg-dark text-white">
-          <img class="card-img blur" src="assets/img/services/service-bg-{{ service.bg }}.png" alt="{{ service.bg }}">
-          <div class="card-img-overlay">
-            <h1 class="card-text">{{ service.title }}</h1>
-            <p class="card-text text-justify">{{ service.description }}</p>
-          </a>
+          <div class="card bg-dark text-white">
+            <img class="card-img blur" src="assets/img/services/service-bg-{{ service.bg }}.png" alt="{{ service.bg }}">
+            <div class="card-img-overlay">
+              <h1 class="card-text">{{ service.title }}</h1>
+              <p class="card-text text-justify">{{ service.description }}</p>
+            </div>
           </div>
-        </div>
-      </div>
+      </a>
+    </div>
 
       {% if remainder == 0 %}
     </div><!-- /row --></br>
