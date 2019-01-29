@@ -1,0 +1,48 @@
+<!-- EVENTS SECTION -->
+<section id="events" name="events"></section>
+<div id="eventswrap">
+  <div class="sep events" data-stellar-background-ratio="0.5"></div>
+
+  <div class="container">
+    <div class="row">
+      <div class="col-6 mx-auto centered">
+        <h1>{{ site.data.t[page.lang].menu-events }}</h1>
+        <h3>{{ site.data.t[page.lang].headline-events }}</h3>
+      </div>
+    </div><!-- /row -->
+
+    {% assign lang-events = site.data.events | where: "lang", page.lang | sort: 'date' %}
+
+    {% for event in lang-events %}
+
+    {% assign remainder = forloop.index | modulo: 2 %}
+
+    <div class="row align-items-center">
+      {% if remainder == 0 %}
+
+      <div class="col-3 wow fadeInLeft" data-wow-delay="0.{{forloop.index}}s">
+        <img class="img-fluid rounded earlybird" src="assets/img/events/{{ event.title | slugify }}.jpg" alt="{{ event.title }}" style="max-width: 90%; height: auto;">
+      </div>
+      <div class="col-9 wow fadeIn" data-wow-delay="0.{{forloop.index}}s">
+        <h2>{{ event.title }} <small>{{ event.date | date: '%B, %Y' }}</small></h2>
+        <p class="text-justify">{{ event.description }}</p>
+      </div><!-- col -->
+
+      {% else %}
+
+      <div class="col-9 wow fadeIn" data-wow-delay="0.{{forloop.index}}s">
+        <h2>{{ event.title }} <small>{{ event.date | date: '%B, %Y' }}</small></h2>
+        <p class="text-justify">{{ event.description }}</p>
+      </div><!-- col -->
+      <div class="col-3 wow fadeInRight" data-wow-delay="0.{{forloop.index}}s">
+        <img class="img-fluid rounded earlybird" src="assets/img/events/{{ event.title | slugify }}.jpg" alt="{{ event.title }}" style="max-width: 100%; height: auto;">
+      </div>
+
+      {% endif %}
+
+    </div><!-- /row -->
+    {% endfor %}
+
+    <h1><a href="#contact" class="smoothScroll nextArrow"><i class="fas fa-angle-double-down"></i></a></h1>
+  </div><!--/container -->
+</div><!--/eventswrap -->
