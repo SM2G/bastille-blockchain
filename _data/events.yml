@@ -2,70 +2,70 @@
 
 - title: "The Blockchain Disruption"
   lang: fr
-  date: 2017-01
+  date: 01-01-2017
   description: "Présentation des concepts Blockchain et réflexion sur les enjeux en matière de sécurité informatique."
 
 - title: "Blockchain for the Smart City"
   lang: fr
-  date: 2017-06
+  date: 01-06-2017
   description: "Les apports de la technologie Blockchain pour les infrastructures connectée de demain et exécution de la première démonstration live Blockchain et IoT.
   </br>
   Technologies utilisées : Hyperledger, JavaScript, lecteur RFID"
 
 - title: "FrenchTech 2017, Robotics and Blockchain"
   lang: fr
-  date: 2017-12
+  date: 01-12-2017
   description: "Introduction aux concepts d’ICO et de financement de projets innovants via crypto monnaies."
 
 - title: "CFO 2018 Innovation Roundtable"
   lang: fr
-  date: 2018-06
+  date: 01-06-2018
   description: "Présentation des avantages de la technologie Blockchain en matière de traçabilité à un panel de CFOs d’entreprises du CAC40 et d’agences de notation financière."
 
 ### EN ###
 
 - title: "The Blockchain Disruption"
   lang: en
-  date: 2017-01
+  date: 01-01-2017
   description: "Presentation of the Blockchain concepts and reflections regarding computer security concerns with Blockchain technologies."
 
 - title: "Blockchain for the Smart City"
   lang: en
-  date: 2017-06
+  date: 01-06-2017
   description: "The contributions of Blockchain technology for tomorrow's connected infrastructures and execution of the first Blockchain and IoT live demonstration in a conference.
   </br>
   Technologies used: Hyperledger, JavaScript, RFID reader"
 
 - title: "FrenchTech 2017, Robotics and Blockchain"
   lang: en
-  date: 2017-12
+  date: 01-12-2017
   description: "Introduction to ICO concepts and financing of innovative projects via cryptocurrencies."
 
 - title: "CFO 2018 Innovation Roundtable"
   lang: en
-  date: 2018-06
+  date: 01-06-2018
   description: "Presentation of the benefits of Blockchain technology in terms of traceability to a panel of CFOs and rating agencies."
 
 ### ZH ###
 
 - title: "The Blockchain Disruption"
   lang: zh
-  date: 2017-01
+  date: 01-01-2017
   description: "Presentation of the Blockchain concepts and reflections regarding computer security concerns with Blockchain technologies."
 
 - title: "Blockchain for the Smart City"
   lang: zh
-  date: 2017-06
+  date: 01-06-2017
   description: "The contributions of Blockchain technology for tomorrow's connected infrastructures and execution of the first Blockchain and IoT live demonstration in a conference.
   </br>
   Technologies used: Hyperledger, JavaScript, RFID reader"
 
 - title: "FrenchTech 2017, Robotics and Blockchain"
   lang: zh
-  date: 2017-12
+  date: 01-12-2017
   description: "Introduction to ICO concepts and financing of innovative projects via cryptocurrencies."
 
 - title: "CFO 2018 Innovation Roundtable"
   lang: zh
-  date: -2018-06
+  date: 01-06-2018
   description: "Presentation of the benefits of Blockchain technology in terms of traceability to a panel of CFOs and rating agencies."
