@@ -1,0 +1,35 @@
+### FR ###
+
+- title: "Oracle Certified Associate"
+  lang: fr
+  link: www.oracle.com
+  description: "Administrateur de bases de données Oracle, obtention de la certification DBA Oracle en 2010, et plus de 5 ans d’expérience en environnement de développement comme en production."
+
+- title: "Corda Certified Developer"
+  lang: fr
+  link: www.r3.net
+  description: "Développeur certifié sur la mise en place de réseaux Corda, la création et l’administration de nœuds Corda, ainsi que l’implémentation de contrats Java/Kotlin en environnement distribué."
+
+### EN ###
+
+- title: "Oracle Certified Associate"
+  lang: en
+  link: www.oracle.com
+  description: "Certified Oracle database administrator since 2010 with more than 5 years of experience in both development and production environments."
+
+- title: "Corda Certified Developer"
+  lang: en
+  link: www.r3.net
+  description: "Certified in setup and management of Corda nodes as well as implementation of Java/Kotlin contracts in a distributed environment."
+
+### ZH ###
+
+- title: "Oracle Certified Associate"
+  lang: zh
+  link: www.oracle.com
+  description: "自2010年以来经过认证的Oracle数据库管理员，在开发和生产环境中拥有超过5年的经验。"
+
+- title: "Corda Certified Developer"
+  lang: zh
+  link: www.r3.net
+  description: "通过Corda节点的设置和管理以及分布式环境中Java / Kotlin合同的实施认证。"

@@ -1,0 +1,58 @@
+<!-- CERTIFICATION SECTION -->
+<section id="certifications" name="certifications"></section>
+<div id="certificationswrap">
+  <div class="sep certifications" data-stellar-background-ratio="0.5"></div>
+
+  <div class="container">
+    <div class="row">
+      <div class="col-6 mx-auto centered">
+        <h1>{{ site.data.t[page.lang].menu-certifications }}</h1>
+        <h3>{{ site.data.t[page.lang].headline-certifications }}</h3>
+        <br/>
+        <h3 class="d-block d-lg-none text-danger">{{ site.data.t[page.lang].go-desktop }}</h3>
+      </div>
+    </div>
+    <div class="row">
+      <div class="card-deck">
+        {% assign lang-certifications = site.data.certifications | where: "lang", page.lang | sort: 'title' %}
+
+        {% for certification in lang-certifications %}
+
+        {% assign remainder = forloop.index | modulo: 2 %}
+
+        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 desc">
+
+          <div class="col d-none d-lg-block wow fadeInUp" data-wow-delay="0.{{forloop.index}}s">
+            <div class="card border-light">
+              <div class="card-header"><h3 class="card-title centered">{{ certification.title }}</h3></div>
+              <img class="card-img-top" src="assets/img/bg/cert-bg.png" style="height:300px; width: auto;" />
+              <img class="d-none d-lg-block" src="assets/img/certifications/{{ certification.title | slugify }}.png" alt="{{ certification.title }}" style="
+              max-width: 100px;
+              position: absolute;
+              top: 200px;
+              left: 50%;
+              margin-right: -50%;
+              transform: translate(-50%, -50%) "/>
+
+              <div class="card-body">
+                <p class="card-text text-justify">{{ certification.description }}</p>
+              </div>
+            </div><!-- /card -->
+          </div>
+        </div><!-- /col-lg-6 -->
+
+        {% if remainder == 0 %}
+      </div><!-- /card-deck -->
+    </div><!-- /row -->
+
+    <div class="row">
+      <div class="card-deck">
+        {% endif %}
+
+        {% endfor %}
+
+      </div><!-- /card-deck -->
+      </div><!-- /row -->
+      <h1><a href="#events" class="smoothScroll nextArrow"><i class="fas fa-angle-double-down"></i></a></h1>
+    </div><!--/container -->
+  </div><!--/certificationswrap -->
