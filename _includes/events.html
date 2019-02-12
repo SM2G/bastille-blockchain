@@ -11,7 +11,7 @@
       </div>
     </div><!-- /row -->
 
-    {% assign lang-events = site.data.events | where: "lang", page.lang | sort: 'date' %}
+    {% assign lang-events = site.data.events | where: "lang", page.lang | sort: "date" %}
 
     {% for event in lang-events %}
 
@@ -21,7 +21,9 @@
       {% if remainder == 0 %}
 
       <div class="col-3 wow fadeInLeft" data-wow-delay="0.{{forloop.index}}s">
-        <img class="img-fluid rounded earlybird" src="assets/img/events/{{ event.title | slugify }}.jpg" alt="{{ event.title }}" style="max-width: 90%; height: auto;">
+        <figure class="earlybird">
+        <img class="img-fluid" src="assets/img/events/{{ event.title | slugify }}.jpg" alt="{{ event.title }}" style="max-width: 100%; height: auto;">
+      </figure>
       </div>
       <div class="col-9 wow fadeIn" data-wow-delay="0.{{forloop.index}}s">
         <h2>{{ event.title }} <small>{{ event.date | date: '%B, %Y' }}</small></h2>
@@ -35,7 +37,9 @@
         <p class="text-justify">{{ event.description }}</p>
       </div><!-- col -->
       <div class="col-3 wow fadeInRight" data-wow-delay="0.{{forloop.index}}s">
-        <img class="img-fluid rounded earlybird" src="assets/img/events/{{ event.title | slugify }}.jpg" alt="{{ event.title }}" style="max-width: 100%; height: auto;">
+        <figure class="earlybird">
+        <img class="img-fluid" src="assets/img/events/{{ event.title | slugify }}.jpg" alt="{{ event.title }}" style="max-width: 100%; height: auto;">
+      </figure>
       </div>
 
       {% endif %}
